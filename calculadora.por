@@ -1,0 +1,22 @@
+// Funções matemáticas básicas
+
+funcao real somar(real a, real b) inicio
+    retorne a + b
+fimfuncao
+
+funcao real subtrair(real a, real b) inicio
+    retorne a - b
+fimfuncao
+
+funcao real multiplicar(real a, real b) inicio
+    retorne a * b
+fimfuncao
+
+funcao real dividir(real a, real b) inicio
+    // evita a divisão por zero
+    se (b = 0) entao
+        retorne 0
+    fimse
+
+    retorne a / b
+fimfuncao
